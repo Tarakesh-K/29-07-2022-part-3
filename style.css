@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+body {
+  font-family: 'Short Stack', cursive;
+}
+
+.box {
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.box .container .row .col-md-12{
+    text-align: center;
+}
+
+.box .container .row .col-md-12 p {
+    font-size: x-large;
+}
+
+.box .container .row-2 {
+    border: 2px solid black;
+    margin-bottom: 30px;
+}
+
+.left-box-main {
+    margin: 80px 100px 70px 70px;
+    border: 2px solid black;
+    height: 204.33px;
+    width: 228px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.left-box-img img {
+    position: absolute;
+    height: 204.33px;
+    width: 228px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.col-1 {
+    margin-top: 20px;
+}
+
+.col-md-12 input, .col-md-12 select {
+    float: right;
+}
+
+.col-md-12 select {
+    padding: 5px 5px;
+}
+
+select option {
+    text-align: center;
+}
+
+.row-3 .col-md-6 {
+    text-align: center;
+}
+
+.row-3 .col-md-6 button {
+    padding: 10px 30px;
+}
